@@ -8,9 +8,9 @@ name = "Minimal"
   
   # Menu
   menu_primary = "#152343"
-  menu_text = "#34495e"
-  menu_text_active = "#2962ff"
-  menu_title = "#2b2b2b"
+  menu_text = "#f7f7f7"
+  menu_text_active = "#b0beeb"
+  menu_title = "#fff"
 
   # Home sections
   home_section_odd = "rgb(255, 255, 255)"
