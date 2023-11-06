@@ -1,5 +1,5 @@
 [build]
-  command = "hugo --gc --minify -b $URL"
+  command = "hugo mod clean --all; hugo --gc --minify -b $URL"
   publish = "public"
 
 [build.environment]
