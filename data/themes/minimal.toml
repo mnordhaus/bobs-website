@@ -7,7 +7,7 @@ name = "Minimal"
   primary = "#fff"
   
   # Menu
-  menu_primary = "#fff"
+  menu_primary = "#152343"
   menu_text = "#34495e"
   menu_text_active = "#2962ff"
   menu_title = "#2b2b2b"
@@ -16,7 +16,7 @@ name = "Minimal"
   home_section_odd = "rgb(255, 255, 255)"
   home_section_even = "rgb(247, 247, 247)"
 
-  background = "#152343"
+  # background = "#152343"
 
 [dark]
   # Primary
