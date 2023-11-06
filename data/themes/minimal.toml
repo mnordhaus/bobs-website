@@ -4,7 +4,7 @@ name = "Minimal"
 [light]
   # Primary
   # primary = "#1565c0"
-  primary = "#152343"
+  primary = "#fff"
   
   # Menu
   menu_primary = "#fff"
@@ -15,6 +15,8 @@ name = "Minimal"
   # Home sections
   home_section_odd = "rgb(255, 255, 255)"
   home_section_even = "rgb(247, 247, 247)"
+
+  background = "#152343"
 
 [dark]
   # Primary
