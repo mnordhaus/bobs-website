@@ -34,7 +34,7 @@ interests:
 # Education to show in About widget
 education:
   - Northeastern University:  Economics
-  - Berklee College of Music  Composition & Arranging Graduate 
+  - Berklee College of Music  Composition & Arranging Graduate  
 
 # Skills
 # For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons
