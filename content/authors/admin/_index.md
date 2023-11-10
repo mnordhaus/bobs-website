@@ -110,5 +110,5 @@ social:
 highlight_name: false
 ---
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+With over two decades of executive leadership, I specialize in channel development and revenue generation for small-to-mid-sized independent software vendors (ISVs). As the founder of Channel Motions Consulting, I assist ISVs in creating, developing, and expanding revenue-generating indirect channels to market, leveraging my expertise in channel strategy, operations, programs, enablement, and ecosystems. 
 {style="text-align: justify;"}
