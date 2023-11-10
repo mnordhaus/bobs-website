@@ -17,7 +17,7 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Professor of Artificial Intelligence
+role: Founder and Chief Consultant
 
 # Organizations/Affiliations to show in About widget
 organizations:
