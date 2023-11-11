@@ -457,5 +457,5 @@ collections:
         lable: "Homepage"
         name: "home"
         fields:
-            - {label: "Title", name: "title", widget: "string"}
+           - {label: "Title", name: "title", widget: "string"}
 
