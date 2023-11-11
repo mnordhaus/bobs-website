@@ -453,9 +453,4 @@ collections:
             widget: "boolean"
             default: false
           - {label: "Body", name: "body", widget: "markdown"}
-      - file: "content/_index.md"
-        lable: "Homepage"
-        name: "home"
-        fields:
-           - {label: "Title", name: "title", widget: "string"}
 
