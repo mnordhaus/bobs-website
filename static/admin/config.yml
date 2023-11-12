@@ -481,7 +481,7 @@ collections:
                     lable: "Unique Identifier"
                     widget: string
                   - name: content
-                    widdget: object
+                    widget: object
                     fields:
                        - name: title
                          lanle: "Title"
