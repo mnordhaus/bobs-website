@@ -11,10 +11,8 @@ authors:
   - admin
 tags:
   - Academic
-  - 开源
 categories:
   - Demo
-  - 教程
 projects: []
 lastmod: 2020-12-13T00:00:00Z
 draft: false
