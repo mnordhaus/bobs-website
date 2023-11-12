@@ -5,7 +5,7 @@ media_folder: assets/media
 public_folder: /media
 site_url: 'https://inquisitive-crisp-1e161d.netlify.app'
 editor:
-  preview: false
+  preview: true
   frame: false
 collections:
   - name: authors
