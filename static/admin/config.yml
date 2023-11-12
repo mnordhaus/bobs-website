@@ -465,4 +465,33 @@ collections:
             required: false
             widget: "boolean"
             default: false
+          - name: sections
+            label: Home Section
+            widget: list
+            types: 
+              - name: about
+                lable: "About"
+                widget: onject
+                summary: '{{fields.block}} {{fields.content.title}}'
+                fields:
+                  - name: block
+                    widget: hidden
+                    default: about.biography
+                  - name: id
+                    lable: "Unique Identifier"
+                    widget: string
+                  - name: content
+                    widdget: object
+                    fields:
+                       - name: title
+                         lanle: "Title"
+                         widget: string
+                         default: Biography
+                       - name: username
+                         lable: "Unique idetifier of the user (e.g. admin)"
+                         widget: string
+                         default: admin
+                      
+                
+                
 
