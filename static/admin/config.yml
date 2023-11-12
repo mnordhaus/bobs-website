@@ -218,475 +218,6 @@ collections:
             widget: boolean
             default: false
             required: false
-  - name: projects
-    label: Projects
-    label_singular: Project
-    folder: content/project
-    path: '{{slug}}/index'
-    filter:
-      field: cms_exclude
-    create: true
-    fields:
-      - label: Title
-        name: title
-        widget: string
-      - label: Subtitle
-        name: subtitle
-        widget: string
-        required: false
-      - label: Body
-        name: body
-        widget: markdown
-        required: false
-      - label: Publish this page on
-        name: date
-        widget: datetime
-      - label: Summary
-        name: summary
-        widget: markdown
-        required: false
-      - label: Draft
-        name: draft
-        widget: boolean
-        default: false
-        required: false
-      - label: Featured
-        name: featured
-        widget: boolean
-        default: false
-        required: false
-      - label: Authors
-        name: authors
-        required: false
-        widget: list
-      - label: Tags
-        name: tags
-        required: false
-        widget: list
-      - label: Categories
-        name: categories
-        required: false
-        widget: list
-      - label: External link (optional - replaces link to project page)
-        name: external_link
-        widget: string
-        required: false
-      - label: Links
-        name: links
-        required: false
-        widget: list
-        fields:
-          - label: Link
-            name: url
-            widget: string
-          - label: Link text
-            name: name
-            widget: string
-            required: false
-          - label: Icon pack
-            name: icon_pack
-            widget: select
-            multiple: false
-            required: false
-            options:
-              - label: None
-                value: ''
-              - label: Solid
-                value: fas
-              - label: Regular
-                value: far
-              - label: Brand
-                value: fab
-              - label: Academic
-                value: ai
-          - label: >-
-              Icon (see
-              https://docs.hugoblox.com/getting-started/page-builder/#icons)
-            name: icon
-            widget: string
-            required: false
-      - label: Featured Image
-        name: image
-        required: false
-        widget: object
-        fields:
-          - label: Upload an image named `featured.jpg/png`
-            name: filename
-            widget: image
-            default: featured
-            required: false
-            media_library:
-              config:
-                multiple: false
-          - label: Caption
-            name: caption
-            widget: string
-            required: false
-          - label: Description for screen readers
-            name: alt_text
-            widget: string
-            required: false
-          - label: >-
-              Where's the focal point in the image? Smart, Center, TopLeft, Top,
-              TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
-            name: focal_point
-            widget: string
-            required: false
-            default: Smart
-          - label: Thumbnail Only?
-            name: preview_only
-            widget: boolean
-            default: false
-            required: false
-  - name: events
-    label: Events
-    label_singular: Event
-    folder: content/event
-    path: '{{slug}}/index'
-    filter:
-      field: cms_exclude
-    create: true
-    fields:
-      - label: Title
-        name: title
-        widget: string
-      - label: Abstract
-        name: abstract
-        widget: text
-      - label: Where
-        name: location
-        widget: text
-      - label: From
-        name: date
-        widget: datetime
-      - label: To
-        name: date_end
-        widget: datetime
-        default: ''
-      - label: All day event?
-        name: all_day
-        widget: boolean
-        default: false
-      - label: Links/Tickets
-        name: links
-        required: false
-        widget: list
-        fields:
-          - label: Link
-            name: url
-            widget: string
-          - label: Link text
-            name: name
-            widget: string
-            required: false
-          - label: Icon pack
-            name: icon_pack
-            widget: select
-            multiple: false
-            required: false
-            options:
-              - label: None
-                value: ''
-              - label: Solid
-                value: fas
-              - label: Regular
-                value: far
-              - label: Brand
-                value: fab
-              - label: Academic
-                value: ai
-          - label: >-
-              Icon (see
-              https://docs.hugoblox.com/getting-started/page-builder/#icons)
-            name: icon
-            widget: string
-            required: false
-      - label: Event
-        name: event
-        widget: string
-      - label: Event link
-        name: event_url
-        widget: string
-      - label: Publish this page on
-        name: publishDate
-        widget: datetime
-      - label: Markdown slides (reference a deck in 'content/slides/')
-        name: slides
-        widget: string
-        required: false
-      - label: Draft
-        name: draft
-        widget: boolean
-        default: false
-        required: false
-      - label: Featured
-        name: featured
-        widget: boolean
-        default: false
-        required: false
-      - label: Authors
-        name: authors
-        required: false
-        widget: list
-      - label: Tags
-        name: tags
-        required: false
-        widget: list
-      - label: Categories
-        name: categories
-        required: false
-        widget: list
-      - label: Projects (reference projects in 'content/project/')
-        name: projects
-        required: false
-        widget: list
-      - label: Featured Image
-        name: image
-        required: false
-        widget: object
-        fields:
-          - label: Upload an image named `featured.jpg/png`
-            name: filename
-            widget: image
-            default: featured
-            required: false
-            media_library:
-              config:
-                multiple: false
-          - label: Caption
-            name: caption
-            widget: string
-            required: false
-          - label: Description for screen readers
-            name: alt_text
-            widget: string
-            required: false
-          - label: >-
-              Where's the focal point in the image? Smart, Center, TopLeft, Top,
-              TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
-            name: focal_point
-            widget: string
-            required: false
-            default: Smart
-          - label: Thumbnail Only?
-            name: preview_only
-            widget: boolean
-            default: false
-            required: false
-      - label: Details
-        name: body
-        widget: markdown
-        required: false
-  - name: publications
-    label: Publications
-    label_singular: Publication
-    folder: content/publication
-    path: '{{slug}}/index'
-    filter:
-      field: cms_exclude
-    create: true
-    fields:
-      - label: Title
-        name: title
-        widget: string
-      - label: Subtitle
-        name: subtitle
-        widget: string
-        required: false
-      - label: Publication type
-        name: publication_types
-        required: true
-        default:
-          - paper-conference
-        widget: select
-        multiple: true
-        options:
-          - label: Uncategorized
-            value: manuscript
-          - label: Conference paper
-            value: paper-conference
-          - label: Journal article
-            value: article-journal
-          - label: Preprint / Working Paper
-            value: paper
-          - label: Report
-            value: report
-          - label: Book
-            value: book
-          - label: Book section
-            value: chapter
-          - label: Thesis
-            value: thesis
-          - label: Patent
-            value: patent
-      - label: Authors
-        name: authors
-        required: true
-        widget: list
-      - label: Author Notes (contributions or affiliations for each author)
-        name: author_notes
-        required: false
-        widget: list
-      - label: DOI
-        name: doi
-        widget: string
-        required: false
-      - label: Publication
-        name: publication
-        widget: string
-        required: false
-      - label: Publication (abbreviated)
-        name: publication_short
-        widget: string
-        required: false
-      - label: Abstract
-        name: abstract
-        widget: text
-        required: false
-      - label: Draft
-        name: draft
-        widget: boolean
-        default: false
-        required: false
-      - label: Featured
-        name: featured
-        widget: boolean
-        default: false
-        required: false
-      - label: Tags
-        name: tags
-        required: false
-        widget: list
-      - label: Categories
-        name: categories
-        required: false
-        widget: list
-      - label: Projects
-        name: projects
-        required: false
-        widget: list
-      - label: Markdown slides (reference a deck in 'content/slides/')
-        name: slides
-        widget: string
-        required: false
-      - label: Featured Image
-        name: image
-        required: false
-        widget: object
-        fields:
-          - label: Upload an image named `featured.jpg/png`
-            name: filename
-            widget: image
-            default: featured
-            required: false
-            media_library:
-              config:
-                multiple: false
-          - label: Caption
-            name: caption
-            widget: string
-            required: false
-          - label: Description for screen readers
-            name: alt_text
-            widget: string
-            required: false
-          - label: >-
-              Where's the focal point in the image? Smart, Center, TopLeft, Top,
-              TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
-            name: focal_point
-            widget: string
-            required: false
-            default: Smart
-          - label: Thumbnail Only?
-            name: preview_only
-            widget: boolean
-            default: false
-            required: false
-      - label: Summary (shortened abstract)
-        name: summary
-        widget: text
-        required: false
-      - label: Details
-        name: body
-        widget: markdown
-        required: false
-      - label: Publish this page on
-        name: date
-        widget: datetime
-  - name: slides
-    label: Slides
-    label_singular: Slides
-    folder: content/slides
-    path: '{{slug}}/index'
-    filter:
-      field: cms_exclude
-    create: true
-    fields:
-      - label: Title
-        name: title
-        widget: string
-      - label: Slides (separate with `---`)
-        name: body
-        widget: markdown
-      - label: Publish on
-        name: date
-        widget: datetime
-      - label: Summary
-        name: summary
-        widget: text
-        required: false
-      - label: Draft
-        name: draft
-        widget: boolean
-        default: false
-        required: false
-      - label: Tags
-        name: tags
-        required: false
-        widget: list
-      - label: Slide options
-        name: slides
-        required: false
-        widget: object
-        fields:
-          - label: 'Theme (see https://github.com/hakimel/reveal.js#theming)'
-            name: theme
-            widget: string
-            required: false
-            default: black
-      - label: Featured Image
-        name: image
-        required: false
-        widget: object
-        fields:
-          - label: Upload an image named `featured.jpg/png`
-            name: filename
-            widget: image
-            default: featured
-            required: false
-            media_library:
-              config:
-                multiple: false
-          - label: Caption
-            name: caption
-            widget: string
-            required: false
-          - label: Description for screen readers
-            name: alt_text
-            widget: string
-            required: false
-          - label: >-
-              Where's the focal point in the image? Smart, Center, TopLeft, Top,
-              TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
-            name: focal_point
-            widget: string
-            required: false
-            default: Smart
-          - label: Thumbnail Only?
-            name: preview_only
-            widget: boolean
-            default: false
-            required: false
   - name: pages
     label: Pages
     files:
@@ -749,6 +280,7 @@ collections:
           - label: Title
             name: title
             widget: string
+            required: false
           - label: Publish Date
             name: date
             widget: datetime
@@ -760,6 +292,8 @@ collections:
           - name: sections
             label: Home Section
             widget: list
+            min: 1
+            type_key: block
             types:
               - name: about
                 label: About
@@ -771,7 +305,7 @@ collections:
                     default: about.biography
                   - name: id
                     label: Unique Identifier
-                    widget: string
+                    widget: UUID
                   - name: content
                     widget: object
                     fields:
@@ -793,7 +327,7 @@ collections:
                     default: contact
                   - name: id
                     label: Unique Identifier
-                    widget: string
+                    widget: UUID
                   - name: content
                     widget: object
                     fields:
@@ -804,21 +338,27 @@ collections:
                       - name: subtitle
                         label: Subtitle
                         widget: string
+                        required: false
                       - name: text
                         label: Text
                         widget: string
+                        required: false
                       - name: email
                         label: Email
                         widget: string
+                        required: false
                       - name: phone
                         label: Phone
                         widget: string
+                        required: false
                       - name: appointment_url
                         label: Appointment Url
                         widget: string
+                        required: false
                       - name: address
                         label: Address
                         widget: object
+                        required: false
                         fields:
                           - name: street
                             label: Street
@@ -829,6 +369,7 @@ collections:
                           - name: region
                             label: Region
                             widget: string
+                            required: false
                           - name: postcode
                             label: Postcode
                             widget: string
@@ -841,14 +382,18 @@ collections:
                       - name: directions
                         label: Additional Directions
                         widget: string
+                        required: false
                       - name: office_hours
                         widget: list
+                        required: false
                         fields:
                           - name: hours
                             widget: string
                             label: 'Hours like Minday 10:00 to 13:00'
                       - name: coordinates
                         label: GPS Coordinates to the Office
+                        widget: object
+                        required: false
                         fields:
                           - name: latitude
                             widget: string
@@ -886,6 +431,7 @@ collections:
                       - name: form
                         label: Form
                         widget: object
+                        required: false
                         fields:
                           - name: provider
                             label: Provider
