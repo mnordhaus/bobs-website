@@ -6,7 +6,8 @@ public_folder: /media
 site_url: 'https://inquisitive-crisp-1e161d.netlify.app'
 editor:
   preview: true
-  frame: false
+  frame: true
+  size: full
 collections:
   - name: authors
     label: Authors
