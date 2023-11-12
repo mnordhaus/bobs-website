@@ -4,7 +4,6 @@ backend:
 media_folder: assets/media
 public_folder: /media
 site_url: 'https://inquisitive-crisp-1e161d.netlify.app'
-display_url: 'https://inquisitive-crisp-1e161d.netlify.app'
 collections:
   - name: authors
     label: Authors
