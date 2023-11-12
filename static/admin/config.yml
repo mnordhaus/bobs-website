@@ -504,29 +504,29 @@ collections:
                   - name: content
                     widget: object
                     fields:
-                       - name: title
-                         label: "Title"
-                         widget: string
-                         default: Contact
-                       - name: subtitle
-                         label: "Subtitle"
-                         widget: string
-                       - name: text
-                         label: "Text"
-                         widget: string
-                       - name: email
-                         label: "Email"
-                         widget: string
-                       - name: phone
-                         label: "Phone"
-                         widget: string
-                       - name: appointment_url
-                         label: "Appointment Url"
-                         widget: string
-                       - name: address
-                         label: "Address"
-                         widget: object
-                         fields:
+                        - name: title
+                          label: "Title"
+                          widget: string
+                          default: Contact
+                        - name: subtitle
+                          label: "Subtitle"
+                          widget: string
+                        - name: text
+                          label: "Text"
+                          widget: string
+                        - name: email
+                          label: "Email"
+                          widget: string
+                        - name: phone
+                          label: "Phone"
+                          widget: string
+                        - name: appointment_url
+                          label: "Appointment Url"
+                          widget: string
+                        - name: address
+                          label: "Address"
+                          widget: object
+                          fields:
                            - name: street
                              label: "Street"
                              widget: string
@@ -554,7 +554,6 @@ collections:
                             - name: hours
                               widget: string
                               label: "Hours like Minday 10:00 to 13:00"
-                              widget: object
                         - name: coordinates
                           label: "GPS Coordinates to the Office"
                           fields:
@@ -619,10 +618,10 @@ collections:
                                   label: "Captcha"
                                   widget: boolean
                                   default: true
-                         - name: design
-                           label: "Design Settings"
-                           widget: object
-                           fields:
+                        - name: design
+                          label: "Design Settings"
+                          widget: object
+                          fields:
                              - name: columns
                                label: "Columns"
                                widget: number
