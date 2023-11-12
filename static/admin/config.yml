@@ -542,7 +542,9 @@ collections:
                            - name: country
                              label: "Country"
                              widget: string
-                           - name: country_code
+                           - name: country_code                             
+                             label: "Country Code"
+                             widget: string
                         - name: directions
                           label: "Additional Directions"
                           widget: string
