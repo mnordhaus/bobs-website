@@ -295,7 +295,7 @@ collections:
             min: 1
             type_key: block
             types:
-              - name: about
+              - name: about.biography
                 label: About
                 widget: object
                 summary: '{{fields.block}} {{fields.content.title}}'
