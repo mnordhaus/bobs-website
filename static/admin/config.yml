@@ -305,7 +305,7 @@ collections:
                     default: about.biography
                   - name: id
                     label: Unique Identifier
-                    widget: UUID
+                    widget: uuid
                   - name: content
                     widget: object
                     fields:
@@ -327,7 +327,7 @@ collections:
                     default: contact
                   - name: id
                     label: Unique Identifier
-                    widget: UUID
+                    widget: uuid
                   - name: content
                     widget: object
                     fields:
