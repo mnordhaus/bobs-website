@@ -471,7 +471,7 @@ collections:
             types: 
               - name: about
                 lable: "About"
-                widget: onject
+                widget: object
                 summary: '{{fields.block}} {{fields.content.title}}'
                 fields:
                   - name: block
