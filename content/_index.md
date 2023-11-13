@@ -8,7 +8,7 @@ sections:
   - block: hero
     demo: false # Only display this section in the Wowchemy demo site
     content:
-      title: Hugo Academic Theme
+      title: Chanel Motion Consulting
       image:
         filename: hero-academic.png
       cta:
