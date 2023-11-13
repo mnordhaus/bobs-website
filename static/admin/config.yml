@@ -3,7 +3,7 @@ backend:
   branch: main
 media_folder: assets/media
 public_folder: /media
-site_url: 'https://inquisitive-crisp-1e161d.netlify.app'
+site_url: https://inquisitive-crisp-1e161d.netlify.app
 editor:
   preview: false
   frame: false
@@ -13,7 +13,7 @@ collections:
     label: Authors
     label_singular: Author
     folder: content/authors
-    path: '{{slug}}/_index'
+    path: "{{slug}}/_index"
     filter:
       field: cms_exclude
     create: true
@@ -59,7 +59,7 @@ collections:
             multiple: false
             options:
               - label: None
-                value: ''
+                value: ""
               - label: Solid
                 value: fas
               - label: Regular
@@ -68,9 +68,7 @@ collections:
                 value: fab
               - label: Academic
                 value: ai
-          - label: >-
-              Icon (see
-              https://docs.hugoblox.com/getting-started/page-builder/#icons)
+          - label: Icon (see https://docs.hugoblox.com/getting-started/page-builder/#icons)
             name: icon
             widget: string
           - label: Label (tooltip)
@@ -86,8 +84,7 @@ collections:
                 widget: boolean
                 default: false
                 required: false
-      - label: >-
-          Organizations you belong to or are affiliated with (shown in About
+      - label: Organizations you belong to or are affiliated with (shown in About
           widget)
         name: organizations
         required: false
@@ -140,7 +137,7 @@ collections:
     label: Posts
     label_singular: Post
     folder: content/post
-    path: '{{slug}}/index'
+    path: "{{slug}}/index"
     filter:
       field: cms_exclude
     create: true
@@ -209,8 +206,7 @@ collections:
             name: alt_text
             widget: string
             required: false
-          - label: >-
-              Where's the focal point in the image? Smart, Center, TopLeft, Top,
+          - label: Where's the focal point in the image? Smart, Center, TopLeft, Top,
               TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
             name: focal_point
             widget: string
@@ -301,7 +297,7 @@ collections:
               - name: about.biography
                 label: About
                 widget: object
-                summary: '{{fields.block}} {{fields.content.title}}'
+                summary: "{{fields.block}} {{fields.content.title}}"
                 fields:
                   - name: block
                     widget: hidden
@@ -323,7 +319,7 @@ collections:
               - name: contact
                 label: Contact
                 widget: object
-                summary: '{{fields.block}} {{fields.content.title}}'
+                summary: "{{fields.block}} {{fields.content.title}}"
                 fields:
                   - name: block
                     widget: hidden
@@ -392,7 +388,7 @@ collections:
                         fields:
                           - name: hours
                             widget: string
-                            label: 'Hours like Minday 10:00 to 13:00'
+                            label: Hours like Minday 10:00 to 13:00
                       - name: coordinates
                         label: GPS Coordinates to the Office
                         widget: object
@@ -417,7 +413,7 @@ collections:
                             multiple: false
                             options:
                               - label: None
-                                value: ''
+                                value: ""
                               - label: Solid
                                 value: fas
                               - label: Regular
@@ -481,7 +477,7 @@ collections:
               - name: about.biography
                 label: About
                 widget: object
-                summary: '{{fields.block}} {{fields.content.title}}'
+                summary: "{{fields.block}} {{fields.content.title}}"
                 fields:
                   - name: block
                     widget: hidden
@@ -558,7 +554,7 @@ collections:
               - name: collection
                 label: Collection
                 widget: object
-                summary: '{{fields.block}} {{fields.content.title}}'
+                summary: "{{fields.block}} {{fields.content.title}}"
                 fields:
                   - name: block
                     widget: hidden
