@@ -17,22 +17,12 @@ social:
     link: /#contact
     display:
       header: false
-  - icon: twitter
-    icon_pack: fab
-    link: https://twitter.com/GeorgeCushen
-    label: Follow me on Twitter
-    display:
-      header: true
-  - icon: graduation-cap
-    icon_pack: fas
-    link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
-    display:
-      header: false
   - icon: linkedin
     icon_pack: fab
-    link: https://www.linkedin.com/
+    link: https://www.linkedin.com/in/bob-cellucci/
     display:
       header: false
+    label: Feel free to add me on LinkedIn
 organizations: []
 education:
   courses:
