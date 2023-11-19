@@ -1,3 +1,4 @@
+# local_backend: true
 backend:
   name: git-gateway
   branch: main
@@ -276,3 +277,54 @@ collections:
           - label: Body
             name: body
             widget: markdown
+      - file: content/_index.md
+        label: Homepage
+        name: home
+        fields:
+          - label: Sections
+            name: sections
+            widget: list
+            type_key: block
+            types:
+              - name: about.biography
+                label: About
+                widget: object
+                summary: 'Author: {{fields.content.title}}'
+                fields:
+                - name: id
+                  label: Unique Id
+                  widget: string
+                  default: about
+                  hint: An id, a preferable lower cased string, that is unique throughout the homepage
+                - name: content
+                  widget: object
+                  label: Content
+                  fields:
+                    - name: title
+                      label: "Titel"
+                      widget: string
+                      default: Biography
+                    - name: username
+                      label: Author
+                      hint: Username auf Author from Authors collection to be presented here e.g. 'admin'
+                      widget: string
+                      default: admin
+              - name: contact
+                label: Contact
+                widget: object
+                summary: 'Contact Information'
+                fields:
+                - name: id
+                  label: Unique Id
+                  widget: string
+                  default: contact
+                  hint: An id, a preferable lower cased string, that is unique throughout the homepage
+                - name: content
+                  widget: object
+                  label: Content
+                  fields:
+                    - name: title
+                      label: "Titel"
+                      widget: string
+                      default: Contact
+
