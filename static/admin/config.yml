@@ -1,4 +1,4 @@
-# local_backend: true
+local_backend: true
 backend:
   name: git-gateway
   branch: main
@@ -327,4 +327,38 @@ collections:
                       label: "Titel"
                       widget: string
                       default: Contact
+                    - name: text
+                      label: Text
+                      hint: Text above the form
+                      widget: string
+                      required: false
+                    - name: email
+                      label: "Email"
+                      widget: string
+                      default: bob@channelmotions.com
+                      required: false
+                    - name: phone
+                      label: "Phone"
+                      widget: string
+                      default: 617 470 7713
+                      required: false
+                    - name: office_hours
+                      label: "Office Hours"
+                      hint: "A simple list of strings e.g.: Mon 09:00 am - 05:00 pm"
+                      widget: list
+                      default:
+                        - 'Weekdays 09:00 am to 05:00 pm'
+                        - 'Saturday and Monday closed'
+                      required: false
+                      fields:
+                        - name: hours
+                          label: Hours
+                          widget: string
+                    - name: appointment_url
+                      label: Appointment Url
+                      hint: Url to your appointment calendar like calendly
+                      widget: string
+                      default: https://calendly.com
+                      required: false
+
 
