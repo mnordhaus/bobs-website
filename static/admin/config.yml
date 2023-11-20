@@ -145,6 +145,8 @@ collections:
     filter:
       field: cms_exclude
     create: true
+    editor:
+      preview: true
     fields:
       - label: Title
         name: title
@@ -306,7 +308,7 @@ collections:
                       default: Biography
                     - name: username
                       label: Author
-                      hint: Username auf Author from Authors collection to be presented here e.g. 'admin'
+                      hint: Username of an Author from Authors collection to be presented here e.g. 'admin'
                       widget: string
                       default: admin
               - name: contact
