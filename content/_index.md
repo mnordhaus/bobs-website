@@ -42,7 +42,7 @@ sections:
             Through extensive market research and segmentation, we enable you
             and your team to acquire partners whose strengths, expertise, and
             customer base align with your offering.
-          icon: camera-retro
+          icon: arrows-down-to-people
           icon_pack: fas
         - name: Partner Program Development
           description: Incentivize and empower your channel partners with cohesive,
