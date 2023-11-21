@@ -35,7 +35,7 @@ sections:
             readiness. We meticulously analyze your existing resources,
             processes, support structures, and partnering culture to guarantee
             alignment with partner-centric approaches and objectives.
-          icon: arrows-to-eye
+          icon: bullseye-arrow
           icon_pack: fas
         - name: Partner Targeting & Acquisition
           description: We'll help you define, identify, and target ideal channel partners.
