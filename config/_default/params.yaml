@@ -15,8 +15,8 @@ appearance:
 marketing:
   seo:
     site_type: Person
-    local_business_type: ''
-    org_name: ''
+    local_business_type: 'Consulting'
+    org_name: 'Channel Motions Consulting'
     description: 'Channel Motions Consulting specializes in partner channel development and revenue generation for small-to-mid-sized independent software vendors (ISVs).  '
     twitter: ''
   analytics:
@@ -33,7 +33,7 @@ marketing:
 header:
   navbar:
     enable: true
-    align: l
+    align: r
     show_logo: true
     show_language: false
     show_day_night: false

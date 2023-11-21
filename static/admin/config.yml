@@ -284,6 +284,7 @@ collections:
         name: home
         fields:
           - label: Sections
+            label_singular: Section
             name: sections
             widget: list
             type_key: block
@@ -362,5 +363,73 @@ collections:
                       widget: string
                       default: https://calendly.com
                       required: false
+              - name: features
+                label: Features
+                widget: object
+                summary: 'Feature Block'
+                hint: 'Can be used to display things like services, product features or capabilities'
+                fields:
+                - name: id
+                  label: Unique Id
+                  widget: string
+                  default: services
+                  hint: An id, a preferable lower cased string, that is unique throughout the homepage
+                - name: content
+                  widget: object
+                  label: Content
+                  fields:
+                    - name: title
+                      label: "Title"
+                      widget: string
+                      default: Services
+                      required: false
+                    - name: subtitle
+                      label: "Subtitle"
+                      widget: string
+                      requrited: false
+                    - name: text
+                      label: Text
+                      widget: text
+                      required: false
+                    - name: items
+                      label: "Items"
+                      label_singular: "Item"
+                      hint: "Examples: Features of a proudct, services, capabiletes, ..."
+                      widget: list
+                      summary: '{{fields.name}}'
+                      fields:
+                        - name: name
+                          label: Name
+                          widget: string
+                        - name: description
+                          label: Description
+                          widget: text
+                        - name: icon
+                          label: icon
+                          widget: string
+                          hint: 'Id of an icon from a icon pack/library like http://fontawesome.com'
+                        - name: icon_pack
+                          label: Icon Pack'
+                          widget: string
+                          hint: 'Specify the icon pack/library that the icon contains'
+              - name: collection
+                label: Colection
+                widget: object
+                summary: 'Posts Collection: {{fields.content.title}}'
+                fields:
+                - name: id
+                  label: Unique Id
+                  widget: string
+                  default: posts
+                  hint: An id, a preferable lower cased string, that is unique throughout the homepage
+                - name: content
+                  widget: object
+                  label: Content
+                  fields:
+                    - name: title
+                      label: "Titel"
+                      widget: string
+                      default: 'Recent Posts'
+                  
 
 
