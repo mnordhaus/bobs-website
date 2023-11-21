@@ -13,7 +13,7 @@ sections:
     design:
       columns: "2"
     content:
-      title: Services
+      title: Services and Capabilities
       subtitle: What I accomplish for you
       text: Channel Motions Consulting specializes in partner channel development and
         revenue generation for small-to-mid-sized independent software vendors
