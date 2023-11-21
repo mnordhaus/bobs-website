@@ -49,7 +49,7 @@ sections:
             flexible frameworks that provide them with the necessary tools,
             resources, and motivation to succeed while ensuring alignment with
             your goals.
-          icon: camera-retro
+          icon: hand-holding-seedling
           icon_pack: fas
         - name: Channel Operations
           description: Operational efficiency in a Channel Operation refers to the
