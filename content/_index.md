@@ -27,7 +27,7 @@ sections:
             objectives. We analyze market dynamics, competitive landscapes, and
             potential partner types and ecosystems to create a roadmap that
             maximizes revenue growth and market penetration.
-          icon: fa-bars-staggered
+          icon: bars-staggered
           icon_pack: fas
         - name: Partner-Centric Readiness Assessment
           description: Ensuring effective engagement with partners begins with conducting
