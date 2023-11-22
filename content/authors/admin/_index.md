@@ -7,8 +7,7 @@ status:
   icon: ☕️
 role: Founder and Chief Consultant
 avatar_filename: avatar.jpg
-bio: My research interests include distributed robotics, mobile computing and
-  programmable matter.
+bio: ERTYU
 interests:
   - Channel Partnership Strategy
 social:
@@ -17,17 +16,17 @@ social:
     link: /#contact
     display:
       header: false
+    label: "@#$%"
   - icon: linkedin
     icon_pack: fab
     link: https://www.linkedin.com/in/bob-cellucci/
     display:
       header: false
-    label: Feel free to add me on LinkedIn
 organizations: []
 education:
   courses:
     - course: Statistics
-      institution: North Eastern University
+      institution: Northeastern University
 superuser: true
 skills:
   - name: Technical
@@ -68,6 +67,4 @@ skills:
         icon_pack: fas
 highlight_name: false
 ---
-
-With over two decades of executive leadership, I specialize in channel development and revenue generation for small-to-mid-sized independent software vendors (ISVs). As the founder of Channel Motions Consulting, I assist ISVs in creating, developing, and expanding revenue-generating indirect channels to market, leveraging my expertise in channel strategy, operations, programs, enablement, and ecosystems. 
-{style="text-align: justify;"}
+With over two decades of executive leadership, I specialize in channel development and revenue generation for small-to-mid-sized independent software vendors (ISVs). As the founder of Channel Motions Consulting, I assist ISVs in creating, developing, and expanding revenue-generating indirect channels to market, leveraging my expertise in channel strategy, operations, programs, enablement, and ecosystems. {style="text-align: justify;"}
