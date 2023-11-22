@@ -60,7 +60,7 @@ sections:
             profitability, faster time-to-market, and stronger partner
             relationships, ultimately leading to increased revenue, market
             competitiveness, and sustainable growth.
-          icon: camera-retro
+          icon: compass
           icon_pack: fas
         - name: Partner Enablement
           description: Equip your channel partners with the knowledge and resources they
@@ -70,7 +70,7 @@ sections:
             actionable multi-pronged enablement plan ensuring partners are
             well-prepared to engage with customers and drive mutual success in
             the market.
-          icon: camera-retro
+          icon: person-chalkboard
           icon_pack: fas
   - block: collection
     id: posts
