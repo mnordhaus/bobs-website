@@ -106,7 +106,6 @@ sections:
       appointment_url: https://calendly.com
       office_hours:
         - Weekdays from 09:00 am to 05:00 pm
-        - Saturdays and Sundays closed
         - "*All times are Eastern Standard (US Boston)*"
       autolink: true
       form:
