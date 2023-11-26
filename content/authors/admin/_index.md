@@ -27,6 +27,8 @@ education:
   courses:
     - course: Economics
       institution: Northeastern University
+    - institution: Berklee College of Music
+      course: Composition and Arranging
 superuser: true
 skills:
   - name: Technical
