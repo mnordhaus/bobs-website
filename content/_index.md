@@ -18,7 +18,7 @@ sections:
       text: Channel Motions Consulting specializes in partner channel development and
         revenue generation for small-to-mid-sized independent software vendors
         (ISVs).  We work closely with each client to ensure their strategic,
-        operational, programmatic, and cultural readiness for  successful
+        operational, programmatic, and cultural readiness for successful
         technology and services partnering.
       items:
         - name: Channel Strategy Development
@@ -99,13 +99,12 @@ sections:
     content:
       title: Contact
       subtitle: null
-      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mi diam,
-        venenatis ut magna et, vehicula efficitur enim.
+      text: "Let's talk about your channel objectives and how we can get you there. "
       email: bob@channelmotions.com
       phone: 617 470 7713
       appointment_url: https://calendly.com
       office_hours:
-        - Weekdays from 09:00 am to 05:00 pm
+        - Weekdays from 08:00 am to 05:00 pm
         - "*All times are Eastern Standard (US Boston)*"
       autolink: true
       form:
