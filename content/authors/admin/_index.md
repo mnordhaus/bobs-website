@@ -25,7 +25,7 @@ social:
 organizations: []
 education:
   courses:
-    - course: Statistics
+    - course: Economics
       institution: Northeastern University
 superuser: true
 skills:
