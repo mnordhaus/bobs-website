@@ -15,11 +15,12 @@ sections:
     content:
       title: Services and Capabilities
       subtitle: What I accomplish for you
-      text: Channel Motions Consulting specializes in partner channel development and
-        revenue generation for small-to-mid-sized independent software vendors
-        (ISVs).  We work closely with each client to ensure their strategic,
-        operational, programmatic, and cultural readiness for successful
-        technology and services partnering.
+      text: >+
+        Through Channel Motions Consulting, I help small to mid-size Independent
+        Software Vendors (ISVs) drive partner contribution to 30-50% without the
+        chaos and forecast misalignments that most channel operations suffer
+        from. 
+
       items:
         - name: Channel Strategy Development
           description: We collaborate with you and your team to craft effective channel
