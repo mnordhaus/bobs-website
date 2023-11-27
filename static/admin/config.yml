@@ -1,4 +1,4 @@
-# local_backend: true
+local_backend: true
 backend:
   name: git-gateway
   branch: main
@@ -313,6 +313,39 @@ collections:
                       hint: Username of an Author from Authors collection to be presented here e.g. 'admin'
                       widget: string
                       default: admin
+              - name: testimonials
+                label: Testimonials
+                widget: object
+                summary: 'Testimonials'
+                fields:
+                - name: id
+                  label: Unique Id
+                  widget: string
+                  default: testimonials
+                  hint: An id, a preferable lower cased string, that is unique throughout the homepage
+                - name: content
+                  widget: object
+                  label: Content
+                  fields:
+                    - name: title
+                      label: "Titel"
+                      widget: string
+                      default: Testimonials
+                    - name: subtitle
+                      label: Subtitle
+                      widget: string
+                      required: false
+                    - name: items
+                      label: Testimonials
+                      label_singular: Testimonial
+                      widget: list
+                      fields:
+                        - name: name
+                          label: Name
+                          widget: string
+                        - name: text
+                          label: Text
+                          widget: text
               - name: contact
                 label: Contact
                 widget: object
