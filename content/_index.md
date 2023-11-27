@@ -28,7 +28,7 @@ sections:
             objectives. We analyze market dynamics, competitive landscapes, and
             potential partner types and ecosystems to create a roadmap that
             maximizes revenue growth and market penetration.
-          icon: chess-king
+          icon: " chess"
           icon_pack: fas
         - name: Partner-Centric Readiness Assessment
           description: Ensuring effective engagement with partners begins with conducting
@@ -95,38 +95,6 @@ sections:
     design:
       view: compact
       columns: "2"
-  - block: testimonials
-    id: testimonials
-    content:
-      title: Testimonials
-      subtitle: What our customers have to say about us
-      items:
-        - name: Flavio Lebrao, CEO
-          text: I’ve worked with channel sales all my life and I know that only a few
-            individuals have what it takes to build a solid partner network that
-            can add real value to a company.  Bob is one of these few.
-        - name: Petr Klouda, VP of Global Sales
-          text: Bob's distinctive quality was his dedication to the complete lifecycle of
-            our partnerships and deep knowledge of building a channel business.
-            He engineered an efficient and effective onboarding process,
-            guaranteeing a top-notch experience for our partners. His guidance
-            on roles and responsibilities played a pivotal role in successfully
-            implementing these changes within our organization.
-        - name: Don Schroeder CTO, Senior Payments Architect
-          text: What Bob brought to the team was an exceptional level of both strategic
-            and tactical business expertise. By combining these and leveraging
-            his deep understanding of our partner’s needs he was able to produce
-            significant growth throughout the Partner Sales Channel.   real
-            value to a company.  Bob is one of these few.
-        - name: Derek Langone Serial CEO
-          text: >
-            Bob was able to help Sitefinity raise its profile in the marketplace
-            and help to not only attract new clients but also gather the
-            attention of key industry analysts. Bob is a results-driven leader
-            with a pragmatic approach and an awareness of the importance of
-            cultural development. If your company has a channel that needs
-            improvement or you need to build a channel from the ground up, Bob
-            is an executive that can deliver in either scenario. 
   - block: contact
     id: contact
     content:
