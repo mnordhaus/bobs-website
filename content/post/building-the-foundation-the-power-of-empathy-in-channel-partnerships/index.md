@@ -5,7 +5,7 @@ draft: false
 featured: false
 image:
   filename: ""
-  focal_point: TopLeft
+  focal_point: Left
   preview_only: false
 ---
 ![](empathy.jpg)
