@@ -4,7 +4,7 @@ date: 2023-11-30T04:49:41.118
 draft: false
 featured: false
 image:
-  filename: ""
+  filename: empathy.jpg
   focal_point: Left
   preview_only: false
 ---
