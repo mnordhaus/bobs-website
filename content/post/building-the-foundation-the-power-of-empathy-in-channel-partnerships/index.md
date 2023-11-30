@@ -8,8 +8,7 @@ image:
   focal_point: Smart
   preview_only: false
 ---
-Trust is a fundamental aspect of any successful #channel partnership. But it’s often too generalized, overlooked, and consequently goes unearned, leaving the partnership to stagnate and never reach its potential. More predictably, partners focus on the transactional aspects of the collaboration, such as conversions, ARR, and other deliverables, neglecting the crucial element of trust as a foundation builder. However, real trust goes beyond mere reliance on each other's capabilities and commitments - it involves a deeper interest, understanding, and empathy for one another.
-
+![](empathy.jpg)
 Empathy allows partners to develop a profound understanding of each other's perspectives, motivations, and challenges. By putting yourself in the shoes of your partner, you can gain invaluable insights into their needs, concerns, and aspirations. 1-1, this empathetic understanding creates a stronger foundation for trust, fostering a genuine connection and collaboration between partners and the respective players. 
 
 Within the context of the partnership, your counterpart's personal motivations may revolve around 
@@ -29,36 +28,13 @@ Empathy enables partners to navigate through challenging situations. Inevitably,
 
 Ultimately, the role of empathy in channel partnerships is to transcend superficial trust and foster a deeper, more meaningful connection. It requires partners to invest time and effort in understanding one another, recognizing shared goals, and aligning actions accordingly. Through empathy, partners can build trust that is grounded in mutual respect, support, and a genuine desire for shared success. 
 
-
-
-Im a Partner Channel Development Consultant with over 25 years in the channel specializing in strategizing & operationalizing indirect channels to market for ISVs and Service Providers.  
-
-
-
-
+Im a Partner Channel Development Consultant with over 25 years in the channel specializing in strategizing & operationalizing indirect channels to market for ISVs and Service Providers.
 
 Contact me to discuss your channel situation
 
-#####    bob@channelmotions.com
+##### [bob@channelmotions.com](bob@channelmotions.com)
 
-#####    [https://www.linkedin.com/in/bob-cellucci](https://www.linkedin.com/in/bob-cellucci)\
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+##### [https://www.linkedin.com/in/bob-cellucci](https://www.linkedin.com/in/bob-cellucci)\
 
 
 
