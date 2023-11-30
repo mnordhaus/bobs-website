@@ -3,6 +3,7 @@ title: "Building the Foundation:  The Power of Empathy in Channel Partnerships"
 date: 2023-11-30T04:49:41.118
 draft: false
 featured: false
+share: false
 image:
   filename: empathy.jpg
   focal_point: Left
