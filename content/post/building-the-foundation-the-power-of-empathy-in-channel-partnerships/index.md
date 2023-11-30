@@ -5,7 +5,7 @@ draft: false
 featured: false
 image:
   filename: empathy.jpg
-  focal_point: Smart
+  focal_point: TopLeft
   preview_only: false
 ---
 ![](empathy.jpg)
