@@ -33,10 +33,6 @@ Im a Partner Channel Development Consultant with over 25 years in the channel sp
 
 Contact me to discuss your channel situation
 
-##### [bob@channelmotions.com](bob@channelmotions.com)
-
-##### [https://www.linkedin.com/in/bob-cellucci](https://www.linkedin.com/in/bob-cellucci)\
-
 
 
 
