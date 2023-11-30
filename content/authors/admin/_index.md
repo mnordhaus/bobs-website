@@ -7,7 +7,7 @@ status:
   icon: ☕️
 role: Founder and Chief Consultant
 avatar_filename: avatar.jpg
-bio: ERTYU
+bio: ""
 interests:
   - Channel Partnership Strategy
 social:
@@ -16,12 +16,13 @@ social:
     link: /#contact
     display:
       header: false
-    label: "@#$%"
+    label: Contact Me!
   - icon: linkedin
     icon_pack: fab
     link: https://www.linkedin.com/in/bob-cellucci/
     display:
       header: false
+    label: LinkedIn
 organizations: []
 education:
   courses:
