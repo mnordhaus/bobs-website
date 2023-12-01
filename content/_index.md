@@ -38,12 +38,13 @@ sections:
     content:
       title: Services and Capabilities
       subtitle: What I accomplish for you
-      text: >+
+      text: >
         Through Channel Motions Consulting, I help small to mid-size Independent
         Software Vendors (ISVs) drive partner contribution to 30-50% without the
         chaos and forecast misalignments that most channel operations suffer
         from. 
 
+        <hr/>
       items:
         - name: Channel Strategy Development
           description: We collaborate with you and your team to craft effective channel
