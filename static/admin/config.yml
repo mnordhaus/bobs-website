@@ -1,4 +1,4 @@
-# local_backend: true
+local_backend: true
 backend:
   name: git-gateway
   branch: main
@@ -46,6 +46,11 @@ collections:
         name: interests
         required: false
         widget: list
+        fields:
+          - name: interest
+            label: Interest
+            widget: string
+            requrited: false
       - label: Social links
         name: social
         required: false

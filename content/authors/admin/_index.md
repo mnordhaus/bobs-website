@@ -9,7 +9,8 @@ role: Founder and Chief Consultant
 avatar_filename: avatar.jpg
 bio: ""
 interests:
-  - Channel Partnership Strategy    Indirect Routes to Market
+  - Channel Partnership Strategy
+  - Indirect Routes to Market
 social:
   - icon: envelope
     icon_pack: fas
