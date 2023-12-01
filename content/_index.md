@@ -123,7 +123,7 @@ sections:
     id: testimonials
     content:
       title: Testimonials
-      subtitle: What our customers have to say about us
+      subtitle: What our customers have to say about us<hr/>
       items:
         - name: Petr Klouda, VP of Global Sales
           text: Bob's distinctive quality was his dedication to the complete lifecycle of
