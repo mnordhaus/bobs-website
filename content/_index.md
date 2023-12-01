@@ -12,12 +12,6 @@ sections:
       text: |
         Channel Strategy - Enablement - Operation
         {style="color: white; font-size: 1.5rem;"}
-      cta:
-        url: "#contact"
-        label: Let's talk
-      cta_alt:
-        url: "#services"
-        label: '<span style="color: white">View services</span>'
     design:
       background:
         image:
