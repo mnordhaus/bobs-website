@@ -32,13 +32,12 @@ sections:
     content:
       title: Services and Capabilities
       subtitle: What I accomplish for you
-      text: >
+      text: >+
         Through Channel Motions Consulting, I help small to mid-size Independent
         Software Vendors (ISVs) drive partner contribution to 30-50% without the
         chaos and forecast misalignments that most channel operations suffer
         from. 
 
-        <hr/>
       items:
         - name: Channel Strategy Development
           description: We collaborate with you and your team to craft effective channel
@@ -71,14 +70,10 @@ sections:
           icon: hand-holding-droplet
           icon_pack: fas
         - name: Channel Operations
-          description: Operational efficiency in a Channel Operation refers to the
-            streamlined and optimized processes, resource allocation, and
-            collaboration within a network of partners. It enables businesses to
-            maximize productivity, reduce costs, and deliver products or
-            services to the market more effectively. The outcome is improved
-            profitability, faster time-to-market, and stronger partner
-            relationships, ultimately leading to increased revenue, market
-            competitiveness, and sustainable growth.
+          description: Channel ops is pivotal for seamless collaboration in partner
+            programs, managing strategic tasks, optimizing processes, and
+            ensuring effective coordination across company functions for
+            successful channel management.
           icon: compass
           icon_pack: fas
         - name: Partner Enablement
@@ -87,8 +82,7 @@ sections:
             relationship building to goals and expectation alignment to
             co-selling, training, and support, Channel Motions will produce an
             actionable multi-pronged enablement plan ensuring partners are
-            well-prepared to engage with customers and drive mutual success in
-            the market.
+            well-prepared to engage with customers and drive mutual success.
           icon: person-chalkboard
           icon_pack: fas
   - block: collection
