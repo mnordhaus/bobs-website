@@ -43,7 +43,7 @@ sections:
             company's objectives informs everything you do for your channel
             business. We'll analyze market dynamics, competitive landscapes, and
             potential partner types and ecosystems to create a roadmap that
-            forms the approach for revenue growth and market penetration.   "
+            forms the approach for revenue growth and market penetration.  "
           icon: chess
           icon_pack: fas
         - name: Partner-Centric Readiness Assessment
