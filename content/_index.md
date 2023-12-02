@@ -3,7 +3,7 @@ title: ""
 date: 2022-10-24
 type: landing
 sections:
-  - block: hero
+ - block: hero
     id: hero
     content:
       title: |
@@ -14,124 +14,11 @@ sections:
     design:
       background:
         image:
-          filename: cover-image.png
-          position: top
-        color: gray
-      columns: "1"
-      css_class: d-flex align-items-end fullscreen text-white
-  - block: hero
-    id: hero
-    content:
-      title: |
-        Empowering ISVs  for Channel Partnership Success
-        {style="color: white"}
-      text: |
-        Channel Strategy - Enablement - Operation
-    design:
-      background:
-        image:
-          filename: cover-image3.png
-          position: top
-        color: gray
-      columns: "1"
-      css_class: d-flex align-items-end fullscreen text-white
-  - block: hero
-    id: hero2
-    content:
-      title: |
-        Empowering ISVs  for Channel Partnership Success
-        {style="color: white"}
-      text: |
-        Channel Strategy - Enablement - Operation
-    design:
-      background:
-        image:
           filename: cover-image2.png
           position: top
         color: gray
       columns: "1"
       css_class: d-flex align-items-end fullscreen text-white
-  - block: hero
-    id: hero2
-    content:
-      title: |
-        Empowering ISVs  for Channel Partnership Success
-        {style="color: white"}
-      text: |
-        Channel Strategy - Enablement - Operation
-    design:
-      background:
-        image:
-          filename: cover-image3.png
-          position: top
-        color: gray
-      columns: "1"
-      css_class: d-flex align-items-end fullscreen text-white
-  - block: hero
-    id: hero2
-    content:
-      title: |
-        Empowering ISVs  for Channel Partnership Success
-        {style="color: white"}
-      text: |
-        Channel Strategy - Enablement - Operation
-    design:
-      background:
-        image:
-          filename: cover-image2.png
-          position: top
-        color: gray
-      columns: "1"
-      css_class: d-flex align-items-center fullscreen text-white
-  - block: hero
-    id: hero2
-    content:
-      title: |
-        Empowering ISVs  for Channel Partnership Success
-        {style="color: white"}
-      text: |
-        Channel Strategy - Enablement - Operation
-    design:
-      background:
-        image:
-          filename: cover-image3.png
-          position: top
-        color: gray
-      columns: "1"
-      css_class: d-flex align-items-center fullscreen text-white
-  - block: hero
-    id: hero2
-    content:
-      title: |
-        Empowering ISVs  for Channel Partnership Success
-        {style="color: white"}
-      text: |
-        Channel Strategy - Enablement - Operation
-    design:
-      background:
-        image:
-          filename: cover-image2.png
-          position: top
-        color: gray
-      columns: "1"
-      css_class: d-flex align-items-top fullscreen text-white
-
-  - block: hero
-    id: hero2
-    content:
-      title: |
-        Empowering ISVs  for Channel Partnership Success
-        {style="color: white"}
-      text: |
-        Channel Strategy - Enablement - Operation
-    design:
-      background:
-        image:
-          filename: cover-image3.png
-          position: top
-        color: gray
-      columns: "1"
-      css_class: d-flex align-items-top fullscreen text-white
   - block: about.biography
     id: about
     content:
