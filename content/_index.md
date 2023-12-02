@@ -8,21 +8,22 @@ sections:
     content:
       title: |
         Empowering ISVs  for Channel Partnership Success
-        {style="color: white"}
+        {style="color: white; font-size: 4rem;"}
       text: |
         Channel Strategy - Enablement - Operation
+        {style="color: white; font-size: 1.5rem;"}
     design:
       background:
         image:
-          filename: cover-image2.png
+          filename: cover-image.png
           position: top
         color: gray
       columns: "1"
-      css_class: d-flex align-items-top fullscreen text-white
+      css_class: d-flex align-items-end fullscreen
   - block: about.biography
     id: about
     content:
-      title: Biography
+      title: About
       username: admin
   - block: features
     id: services
@@ -35,7 +36,7 @@ sections:
         Through Channel Motions Consulting, I help small to mid-size Independent
         Software Vendors (ISVs) drive partner contribution to 30-50% without the
         chaos and forecast misalignments that most channel operations suffer
-        from. <hr/>
+        from. 
 
       items:
         - name: Channel Strategy Development
@@ -43,7 +44,7 @@ sections:
             company's objectives informs everything you do for your channel
             business. We'll analyze market dynamics, competitive landscapes, and
             potential partner types and ecosystems to create a roadmap that
-            forms the approach for revenue growth and market penetration.  "
+            forms the approach for revenue growth and market penetration.   "
           icon: chess
           icon_pack: fas
         - name: Partner-Centric Readiness Assessment
@@ -137,25 +138,26 @@ sections:
             with a pragmatic approach and an awareness of the importance of
             cultural development. If your company has a channel that needs
             improvement or you need to build a channel from the ground up, Bob
-            is an executive that can deliver in either scenario.
+            is an executive that can deliver in either scenario. 
   - block: contact
     id: contact
     content:
       title: Contact
       subtitle: null
-      text: "Let's talk about your channel objectives and how we can get you there."
+      text: "Let's talk about your channel objectives and how we can get you there. "
       email: bob@channelmotions.com
       phone: 617 470 7713
-      appointment_url: ""
+      appointment_url: https://calendly.com
       office_hours:
         - Weekdays from 08:00 am to 05:00 pm
         - "*All times are Eastern Standard (US Boston)*"
       autolink: true
       form:
-        form:
-        provider: formspree
+        provider: netlify
         formspree:
-          id: mayggkra
+          id: null
+        netlify:
+          captcha: false
     design:
       columns: "2"
 ---
