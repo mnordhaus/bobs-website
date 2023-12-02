@@ -40,11 +40,11 @@ sections:
 
       items:
         - name: Channel Strategy Development
-          description: We collaborate with you and your team to craft effective channel
-            strategies, aligning routes to market with your unique business
-            objectives. We analyze market dynamics, competitive landscapes, and
+          description: "Devising and aligning a comprehensive channel strategy with your
+            company's objectives informs everything you do for your channel
+            business. We'll analyze market dynamics, competitive landscapes, and
             potential partner types and ecosystems to create a roadmap that
-            maximizes revenue growth and market penetration.
+            forms the approach for revenue growth and market penetration.   "
           icon: chess
           icon_pack: fas
         - name: Partner-Centric Readiness Assessment
