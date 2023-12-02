@@ -153,8 +153,6 @@ sections:
       autolink: true
       form:
         provider: netlify
-        formspree:
-          id: null
         netlify:
           captcha: false
     design:
