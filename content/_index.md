@@ -8,22 +8,21 @@ sections:
     content:
       title: |
         Empowering ISVs  for Channel Partnership Success
-        {style="color: white; font-size: 4rem;"}
+        {style="color: white"}
       text: |
         Channel Strategy - Enablement - Operation
-        {style="color: white; font-size: 1.5rem;"}
     design:
       background:
         image:
-          filename: cover-image.png
+          filename: cover-image2.png
           position: top
         color: gray
       columns: "1"
-      css_class: d-flex align-items-end fullscreen
+      css_class: d-flex align-items-top fullscreen text-white
   - block: about.biography
     id: about
     content:
-      title: About
+      title: Biography
       username: admin
   - block: features
     id: services
@@ -44,7 +43,7 @@ sections:
             company's objectives informs everything you do for your channel
             business. We'll analyze market dynamics, competitive landscapes, and
             potential partner types and ecosystems to create a roadmap that
-            forms the approach for revenue growth and market penetration.   "
+            forms the approach for revenue growth and market penetration.  "
           icon: chess
           icon_pack: fas
         - name: Partner-Centric Readiness Assessment
@@ -138,26 +137,25 @@ sections:
             with a pragmatic approach and an awareness of the importance of
             cultural development. If your company has a channel that needs
             improvement or you need to build a channel from the ground up, Bob
-            is an executive that can deliver in either scenario. 
+            is an executive that can deliver in either scenario.
   - block: contact
     id: contact
     content:
       title: Contact
       subtitle: null
-      text: "Let's talk about your channel objectives and how we can get you there. "
+      text: "Let's talk about your channel objectives and how we can get you there."
       email: bob@channelmotions.com
       phone: 617 470 7713
-      appointment_url: https://calendly.com
+      appointment_url: ""
       office_hours:
         - Weekdays from 08:00 am to 05:00 pm
         - "*All times are Eastern Standard (US Boston)*"
       autolink: true
       form:
-        provider: netlify
+        form:
+        provider: formspree
         formspree:
-          id: null
-        netlify:
-          captcha: false
+          id: mayggkra
     design:
       columns: "2"
 ---
