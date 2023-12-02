@@ -36,7 +36,7 @@ sections:
         Through Channel Motions Consulting, I help small to mid-size Independent
         Software Vendors (ISVs) drive partner contribution to 30-50% without the
         chaos and forecast misalignments that most channel operations suffer
-        from. 
+        from. <hr/>
 
       items:
         - name: Channel Strategy Development
