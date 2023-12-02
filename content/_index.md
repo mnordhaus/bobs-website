@@ -152,9 +152,10 @@ sections:
         - "*All times are Eastern Standard (US Boston)*"
       autolink: true
       form:
-        provider: netlify
-        netlify:
-          captcha: false
+        form:
+        provider: formspree
+        formspree:
+          id: mayggkra
     design:
       columns: "2"
 ---
