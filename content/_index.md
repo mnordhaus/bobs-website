@@ -22,7 +22,7 @@ sections:
   - block: about.biography
     id: about
     content:
-      title: About Me
+      title: About
       username: admin
   - block: features
     id: services
