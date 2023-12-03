@@ -22,7 +22,7 @@ sections:
   - block: about.biography
     id: about
     content:
-      title: Biography
+      title: About
       username: admin
   - block: features
     id: services
@@ -143,7 +143,7 @@ sections:
     content:
       title: Contact
       subtitle: null
-      text: "Let's talk about your channel objectives and how we can get you there."
+      text: Let's talk about your channel objectives and how we can get you there.
       email: bob@channelmotions.com
       phone: 617 470 7713
       appointment_url: ""
@@ -152,7 +152,7 @@ sections:
         - "*All times are Eastern Standard (US Boston)*"
       autolink: true
       form:
-        form:
+        form: null
         provider: formspree
         formspree:
           id: mayggkra
