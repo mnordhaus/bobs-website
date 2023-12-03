@@ -5,7 +5,7 @@ first_name: Bob
 last_name: Cellucci
 status:
   icon: ☕️
-role: Founder and Chief Consultant
+role: Founder and Lead Consultant
 avatar_filename: avatar.jpg
 bio: ""
 interests:
