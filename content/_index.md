@@ -53,10 +53,11 @@ sections:
           icon: arrows-to-eye
           icon_pack: fas
         - name: Partner Targeting & Acquisition
-          description: We'll help you define, identify, and target ideal channel partners.
-            Through extensive market research and segmentation, we enable you
-            and your team to acquire partners whose strengths, expertise, and
-            customer base align with your offering.
+          description: "Better to have fewer partners who fit your Ideal Partner Profile
+            (IPP) than a longer, more random list of underperformers. Defining
+            your IPP is step one. It will enable you and your team to acquire
+            partners whose strengths, expertise, culture, and customer base
+            align with your offering and channel strategy.  "
           icon: arrows-down-to-people
           icon_pack: fas
         - name: Partner Program Development
