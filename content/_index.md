@@ -39,11 +39,9 @@ sections:
 
       items:
         - name: Channel Strategy Development
-          description: "Devising and aligning a comprehensive channel strategy with your
-            company's objectives informs everything you do for your channel
-            business. We'll analyze market dynamics, competitive landscapes, and
-            potential partner types and ecosystems to create a roadmap that
-            forms the approach for revenue growth and market penetration.  "
+          description: >2-
+             
+            Crafting a comprehensive channel strategy, aligned with your company goals, guides all channel business efforts. Together, we'll analyze market dynamics, competition, potential partners, and your organizational readiness,  creating a roadmap for revenue growth and market penetration.
           icon: chess
           icon_pack: fas
         - name: Partner-Centric Readiness Assessment
@@ -158,4 +156,14 @@ sections:
           id: mayggkra
     design:
       columns: "2"
+  - block: contact
+    id: contact
+    content:
+      title: Contact
+      email: bob@channelmotions.com
+      phone: 617 470 7713
+      appointment_url: https://calendly.com
+      office_hours:
+        - Weekdays 09:00 am to 05:00 pm
+        - Saturday and Monday closed
 ---
