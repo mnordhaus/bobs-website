@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Created with Vectornator (http://vectornator.io/) -->
+<svg height="1024.0px" stroke-miterlimit="10" style="fill-rule:nonzero;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;" version="1.1" viewBox="0 0 8737.99 1024" width="8737.98771087575px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:vectornator="http://vectornator.io" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs/>
+<g id="Ebene-1" vectornator:layerName="Ebene 1">
+<g opacity="1" vectornator:layerName="Gruppieren 1">
+<path d="M878.119 498.618C813.626 461.231 707.073 472.447 638.842 493.945C603.324 505.161 557.525 522.92 498.641 550.96C436.952 579 364.982 607.975 309.836 608.91C302.359 608.91 292.078 608.91 291.143 608.91C282.731 608.91 249.083 602.367 287.404 610.779C314.51 615.452 344.419 613.583 371.525 608.91C440.691 597.694 550.048 536.005 639.777 502.357C703.335 478.055 813.626 464.035 878.119 498.618Z" fill="#ffffff" fill-rule="evenodd" opacity="1" stroke="none" vectornator:layerName="path"/>
+<path d="M394.892 569.653C460.319 546.286 606.128 470.578 722.028 453.754C808.953 440.668 901.486 464.97 968.782 514.507C906.159 454.688 812.692 425.713 703.335 430.387C603.324 436.929 516.4 470.578 423.867 513.573C329.465 557.503 225.716 593.02 138.791 560.307C107.012 548.156 78.0371 520.116 60.2782 483.663C73.3637 515.442 100.469 547.221 135.052 565.915C166.831 582.739 206.088 597.694 261.233 595.824C264.972 597.694 346.289 586.477 394.892 569.653Z" fill="#ffffff" fill-rule="evenodd" opacity="1" stroke="none" vectornator:layerName="path 1"/>
+<path d="M210.761 511.703C216.369 509.834 240.67 502.357 243.475 500.487C277.123 485.533 309.836 467.774 344.419 452.819C379.002 437.864 415.455 422.909 452.842 435.06C467.797 439.733 480.882 447.211 493.033 457.492L508.922 470.578C505.184 462.166 488.359 444.407 481.817 437.864C451.907 411.693 410.781 406.085 376.198 413.563C317.314 425.713 197.675 487.402 194.871 488.337C164.027 497.683 131.314 501.422 99.5346 491.141C82.7104 486.467 71.4943 476.186 64.0169 465.904C61.2129 461.231 58.4089 458.427 56.5395 440.668C55.6049 444.407 54.6702 449.08 55.6049 453.754C56.5395 463.1 60.2782 472.447 64.9516 480.859C78.0371 501.422 104.208 514.507 132.248 518.246C159.354 521.05 187.394 517.312 210.761 511.703Z" fill="#ffffff" fill-rule="evenodd" opacity="1" stroke="none" vectornator:layerName="path 2"/>
+</g>
+<text fill="#ffffff" font-family="LibreBaskerville-Regular" font-size="512" opacity="1" stroke="none" text-anchor="start" transform="matrix(1 0 0 1 1113.53 194.5)" vectornator:layerName="Text 1" vectornator:width="7547.36" x="0" y="0">
+<tspan textLength="7540.74" x="0" y="497">Channel Motions Consulting</tspan>
+</text>
+</g>
+</svg>
