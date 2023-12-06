@@ -157,14 +157,4 @@ sections:
           id: mayggkra
     design:
       columns: "2"
-  - block: contact
-    id: contact
-    content:
-      title: Contact
-      email: bob@channelmotions.com
-      phone: 617 470 7713
-      appointment_url: https://calendly.com
-      office_hours:
-        - Weekdays 09:00 am to 05:00 pm
-        - Saturday and Monday closed
 ---
