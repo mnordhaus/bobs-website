@@ -41,30 +41,28 @@ sections:
         - name: Channel Strategy Development
           description: >2-
              
-            Crafting a comprehensive channel strategy, that aligns with your company goals, guides all channel business efforts. We'll analyze market dynamics, competition, and potential partners, and your organizational readiness creating a roadmap for revenue growth and market penetration. 
+            Crafting a comprehensive channel strategy, that aligns with your company goals, informs all channel business efforts. We'll analyze market dynamics, competition, potential partners, and your organizational readiness to create a roadmap for revenue growth and market penetration. 
           icon: chess
           icon_pack: fas
         - name: Partner-Centric Readiness Assessment
-          description: Ensuring effective engagement with partners begins with conducting
-            thorough assessments of your organizational and operational
-            readiness. We meticulously analyze your existing resources,
-            processes, support structures, and partnering culture to guarantee
-            alignment with partner-centric approaches and objectives.
+          description: Ensuring effective engagement with partners begins with a thorough
+            assessment of your organizational and operational readiness. I'll
+            analyze your existing resources, processes, support structures, and
+            partnering culture to guarantee alignment with partner-centric
+            approaches and objectives.
           icon: arrows-to-eye
           icon_pack: fas
         - name: Partner Targeting & Acquisition
-          description: "Better to have fewer partners who fit your Ideal Partner Profile
-            (IPP) than a longer, more random list of underperformers. Defining
-            your IPP is step one. It will enable you and your team to acquire
-            partners whose strengths, expertise, culture, and customer base
-            align with your offering and channel strategy.  "
+          description: Quality over quantity is key. Define your Ideal Partner Profile
+            (IPP) to acquire partners whose strengths, expertise, culture, and
+            customer base align with your offering and channel strategy.
           icon: arrows-down-to-people
           icon_pack: fas
         - name: Partner Program Development
           description: Incentivize and empower your channel partners with cohesive,
-            flexible frameworks that provide them with the necessary tools,
-            resources, and motivation to succeed while ensuring alignment with
-            your goals.
+            flexible frameworks that provide the necessary tools, resources,
+            knowledge, support, and motivation to achieve partnership success
+            for both you and your partner.
           icon: hand-holding-droplet
           icon_pack: fas
         - name: Channel Operations
@@ -75,12 +73,10 @@ sections:
           icon: compass
           icon_pack: fas
         - name: Partner Enablement
-          description: Equip your channel partners with the knowledge and resources they
-            need to effectively sell and support your products. From
-            relationship building to goals and expectation alignment to
-            co-selling, training, and support, Channel Motions will produce an
-            actionable multi-pronged enablement plan ensuring partners are
-            well-prepared to engage with customers and drive mutual success.
+          description: Insufficient partner enablement can hinder partnerships from the
+            start. Developing a comprehensive multi-pronged enablement plan is
+            crucial, ensuring partners are adeptly prepared to engage customers,
+            fostering mutual success in product selling and support.
           icon: person-chalkboard
           icon_pack: fas
   - block: collection
