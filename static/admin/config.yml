@@ -4,7 +4,7 @@ backend:
   branch: main
 media_folder: assets/media
 public_folder: /media
-site_url: 'https://inquisitive-crisp-1e161d.netlify.app'
+site_url: 'channelmotions.com'
 editor:
   preview: false
   frame: false
