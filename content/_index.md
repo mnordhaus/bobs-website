@@ -45,17 +45,18 @@ sections:
           icon: chess
           icon_pack: fas
         - name: Partner-Centric Readiness Assessment
-          description: Ensuring effective engagement with partners begins with a thorough
-            assessment of your organizational and operational readiness. I'll
-            analyze your existing resources, processes, support structures, and
-            partnering culture to guarantee alignment with partner-centric
-            approaches and objectives.
+          description: Set your team up for success. Ensuring effective engagement with
+            partners begins with a thorough assessment of your organizational
+            and operational readiness. I'll analyze your existing resources,
+            processes, support structures, and partnering culture to guarantee
+            alignment with partner-centric best practices approaches, and
+            objectives.
           icon: arrows-to-eye
           icon_pack: fas
         - name: Partner Targeting & Acquisition
-          description: Quality over quantity is key. Define your Ideal Partner Profile
+          description: "Quality over quantity is key. Define your Ideal Partner Profile
             (IPP) to acquire partners whose strengths, expertise, culture, and
-            customer base align with your offering and channel strategy.
+            customer base align with your offering and channel strategy. "
           icon: arrows-down-to-people
           icon_pack: fas
         - name: Partner Program Development
@@ -66,10 +67,10 @@ sections:
           icon: hand-holding-droplet
           icon_pack: fas
         - name: Channel Operations
-          description: Channel ops is pivotal for seamless collaboration in partner
-            programs, managing strategic tasks, optimizing processes, and
-            ensuring effective coordination across company functions for
-            successful channel management.
+          description: Channel ops are pivotal for seamless coordination and collaboration
+            in partner programs. Implementing a proven framework and approach
+            for continuous improvement and operational effectiveness will ensure
+            success across company functions for successful channel management.
           icon: compass
           icon_pack: fas
         - name: Partner Enablement
