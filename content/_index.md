@@ -41,7 +41,7 @@ sections:
         - name: Channel Strategy Development
           description: >2-
              
-            Crafting a comprehensive channel strategy, that aligns with your company goals, guides all channel business efforts. We'll analyze market dynamics, competition, potential partners, and your organizational readiness creating a roadmap for revenue growth and market penetration.
+            Crafting a comprehensive channel strategy that aligns with your company goals guides all channel business efforts. We'll analyze market dynamics, competition, potential partners, and your organizational readiness creating a roadmap for revenue growth and market penetration.
           icon: chess
           icon_pack: fas
         - name: Partner-Centric Readiness Assessment
