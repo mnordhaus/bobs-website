@@ -2,9 +2,9 @@
 title: 5 Misalignments That Cause Most Channel Partnerships to Fail
 date: 2023-12-19T08:59:25.387
 draft: true
-featured: false
+featured: true
 image:
-  filename: featured
+  filename: /cobra-engine-2.jpg
   focal_point: Smart
   preview_only: false
 ---
