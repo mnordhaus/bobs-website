@@ -19,11 +19,6 @@ sections:
         color: gray
       columns: "1"
       css_class: d-flex align-items-top fullscreen text-white
-  - block: about.biography
-    id: about
-    content:
-      title: About
-      username: admin
   - block: features
     id: services
     design:
@@ -83,6 +78,11 @@ sections:
             well-prepared to engage with customers and drive mutual success.
           icon: person-chalkboard
           icon_pack: fas
+  - block: about.biography
+    id: about
+    content:
+      title: About
+      username: admin
   - block: collection
     id: posts
     content:
