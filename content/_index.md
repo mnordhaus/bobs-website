@@ -163,7 +163,7 @@ sections:
       title: Contact
       email: bob@channelmotions.com
       phone: 617 470 7713
-      appointment_url: " "
+      appointment_url: ""
       office_hours:
         - Weekdays 09:00 am to 05:00 pm
         - Saturday and Monday closed
