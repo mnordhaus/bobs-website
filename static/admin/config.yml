@@ -452,7 +452,7 @@ collections:
                           widget: string
                           hint: 'Specify the icon pack/library that the icon contains'
               - name: collection
-                label: Colection
+                label: Collection
                 widget: object
                 summary: 'Posts Collection: {{fields.content.title}}'
                 fields:
