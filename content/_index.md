@@ -41,7 +41,7 @@ sections:
         - name: Channel Strategy Development
           description: >2-
              
-            Crafting a comprehensive channel strategy that aligns with your company goals guides all channel business efforts. We'll analyze market dynamics, competition, potential partners, and your organizational readiness creating a roadmap for revenue growth and market penetration.
+            Crafting a comprehensive channel strategy that aligns with your company goals guides all channel efforts. We'll analyze market dynamics, competition, potential partners, and your organizational readiness creating a roadmap for revenue growth and market penetration.
           icon: chess
           icon_pack: fas
         - name: Partner-Centric Readiness Assessment
@@ -119,11 +119,12 @@ sections:
             on roles and responsibilities played a pivotal role in successfully
             implementing these changes within our organization.
         - name: Don Schroeder CTO, Senior Payments Architect
-          text: What Bob brought to the team was an exceptional level of both strategic
+          text: "What Bob brought to the team was an exceptional level of both strategic
             and tactical business expertise. By combining these and leveraging
             his deep understanding of our partner’s needs he was able to produce
-            significant growth throughout the Partner Sales Channel.   real
-            value to a company.  Bob is one of these few.
+            significant growth throughout the Partner Sales Channel. Bob never
+            accepts the status quo and he doesn't shy away from challenging
+            entrenched business norms. "
         - name: Flavio Lebrao, CEO
           text: I’ve worked with channel sales all my life and I know that only a few
             individuals have what it takes to build a solid partner network that
@@ -157,4 +158,14 @@ sections:
           id: mayggkra
     design:
       columns: "2"
+  - block: contact
+    id: contact
+    content:
+      title: Contact
+      email: bob@channelmotions.com
+      phone: 617 470 7713
+      appointment_url: https://calendly.com
+      office_hours:
+        - Weekdays 09:00 am to 05:00 pm
+        - Saturday and Monday closed
 ---
