@@ -9,8 +9,8 @@
   </head>
   <body>
     <!-- Include the script that builds the page and powers Static CMS -->
-    <script src="https://unpkg.com/@staticcms/app@^3.4.5/dist/static-cms-app.js"></script>
-    <script>
+    <script type="module" src="./admin.js"></script>
+   <!-- <script>
         window.CMS.init(); 
         /** Evemtlistener that reacts on the preSave event in order to reset the weights to the current order in the list
          The Hugo Navigation gets sorted through the weight field by default. There is no way to have it sorted by the order in the yaml config.
@@ -32,6 +32,6 @@
             };
           },
         });
-    </script>
+    </script> //-->
   </body>
 </html>
