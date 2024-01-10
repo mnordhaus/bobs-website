@@ -72,3 +72,5 @@ skills:
 highlight_name: false
 ---
 I specialize in channel development and revenue generation for small-to-mid-sized independent software vendors (ISVs). As the founder of Channel Motions Consulting, I assist ISVs in creating, developing, and expanding indirect channels to market, leveraging my expertise in channel strategy, operations, programs, enablement, and ecosystems.
+
+Engagement types include Consulting, Contracting, or Fractional Channel Leadership depending on what's most appropriate for you and your organization.  
