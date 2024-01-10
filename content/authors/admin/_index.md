@@ -9,7 +9,7 @@ role: Founder and Lead Consultant
 avatar_filename: avatar.jpg
 bio: ""
 interests:
-  - Partner Channel Strategy and Operations
+  - Partner Channel Strategy & Operations
   - Indirect Routes to Market
   - Fly Fishing
   - Jazz Piano
