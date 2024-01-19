@@ -4,7 +4,7 @@ backend:
   branch: main
 media_folder: assets/media
 public_folder: /media
-site_url: 'channelmotions.com'
+site_url: 'https://www.channelmotions.com'
 editor:
   preview: false
   frame: false
