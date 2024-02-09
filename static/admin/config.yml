@@ -5,6 +5,7 @@ backend:
 media_folder: assets/media
 public_folder: /media
 site_url: 'https://www.channelmotions.com'
+logo_link: '/admin/'
 editor:
   preview: false
   frame: false
