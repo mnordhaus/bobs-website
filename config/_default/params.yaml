@@ -22,7 +22,7 @@ marketing:
     description: 'Channel Motions Consulting specializes in partner channel development and revenue generation for small-to-mid-sized independent software vendors (ISVs).  '
     twitter: ''
   analytics:
-    google_analytics: ''
+    google_analytics: 'G-F7E22ZVC0B'
     baidu_tongji: ''
     google_tag_manager: ''
     microsoft_clarity: ''
