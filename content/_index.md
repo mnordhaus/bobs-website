@@ -146,7 +146,7 @@ sections:
       text: Let's talk about your channel objectives and how we can get you there.
       email: bob@channelmotions.com
       phone: 617 470 7713
-      appointment_url: ""
+      appointment_url: https://calendly.com/bobcellucci/30min?back=1&month=2024-02
       office_hours:
         - Weekdays from 08:00 am to 05:00 pm
         - "*All times are Eastern Standard (US Boston)*"
