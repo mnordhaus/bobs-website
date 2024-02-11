@@ -26,12 +26,6 @@ social:
     display:
       header: false
     label: LinkedIn
-  - display:
-      header: false
-    link: https://calendly.com/bobcellucci/30min?back=1&month=2024-02
-    icon_pack: fas
-    label: Lets have a call
-    icon: " "
 organizations: []
 education:
   courses:
